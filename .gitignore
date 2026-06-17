@@ -1,0 +1,35 @@
+# The per-year .md files ARE the published dataset, so .md is NOT ignored.
+# Everything below is source material or local cruft that should not be committed.
+
+# Source PDFs (the originals; the .md text is the deliverable)
+*.pdf
+
+# Unrelated drafts that happen to live in this folder
+*.docx
+
+# RStudio project files
+.Rproj.user/
+*.Rproj
+.RData
+.Rhistory
+
+# build scratch used by scripts/
+pdfs/
+
+# local helper notes (not for publishing)
+SETUP.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.swp
+.idea/
+.vscode/
